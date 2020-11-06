@@ -94,7 +94,7 @@ Parameters:
   SSLCertificateARN:
     Type: String
     Description: ARN for pre-uploaded SSL certificate.
-      The certificate should cover *.pcf_domain, *.sys.pcf_domain, *.apps.pcf_domain, *.login.pcf_domain, and *.uaa.pcf_domain
+      The certificate should cover *.pcf_domain, *.sys.pcf_domain, *.apps.pcf_domain, *.login.sys.pcf_domain, and *.uaa.sys.pcf_domain
   PivnetToken:
     Type: String
     Description: Pivotal Network token to accept EULA (requires registration). To
